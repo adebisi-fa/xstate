@@ -14,7 +14,11 @@ import {
   assign,
   after,
   done,
-  invoke
+  invoke,
+  toActionObject,
+  toEventObject,
+  toActivityDefinition,
+  toActionObjects
 } from './actions';
 
 const actions = {
@@ -28,7 +32,11 @@ const actions = {
   assign,
   after,
   done,
-  invoke
+  invoke,
+  toActionObject,
+  toEventObject,
+  toActivityDefinition,
+  toActionObjects
 };
 
 export { Machine, StateNode, State, matchesState, mapState, actions };
